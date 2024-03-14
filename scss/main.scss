@@ -4,6 +4,8 @@
 @import "components/header";
 @import "components/nav";
 
+@import "components/carousel";
+
 * {
   box-sizing: border-box;
 }
@@ -18,49 +20,14 @@ body {
   margin: 0;
   font-family: var(--font-primary);
   color: black;
-  font-size: 14px;
+  font-size: 18px;
   height: 100%;
 }
 
-section {
-  &.big {
-    padding: 100px 0;
+.textDetail {
+  background-color: $COLOR-GREEN;
+  height: 7px;
+  width: 60px;
+  display: inline-block;
 
-    @media (max-width: 767px) {
-      padding: 50px 0;
-    }
-  }
-}
-
-/* ===== Scrollbar CSS ===== */
-/* Firefox */
-* {
-  scrollbar-width: auto;
-  scrollbar-color: #D9D9D9 #ffffff;
-}
-
-/* Chrome, Edge, and Safari */
-*::-webkit-scrollbar {
-  width: 14px;
-}
-
-*::-webkit-scrollbar-track {
-  background: #ffffff;
-}
-
-*::-webkit-scrollbar-thumb {
-  background-color: #D9D9D9;
-  border-radius: 10px;
-  border: 3px solid #ffffff;
-}
-
-.rh {
-  .wrapper-center-items {
-    & .wrapper-image {
-      min-height: 116px;
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-    }
-  }
 }
