@@ -1,10 +1,10 @@
 :root {
   //COLORS
-  --color-primary: #000000;
-  --color-secondary: #545454;
+  --color-primary: #00FF83;
+  --color-secondary: #62D4D5;
   --color-white: #ffffff;
   --color-green: #00FF83;
-  --color-primary-contrast: #fff;
+  --color-primary-contrast: #303337;
   
   //FONT
   --font-primary: "Poppins", sans-serif;
@@ -23,7 +23,9 @@ $COLOR-SECONDARY: var(--color-secondary);
 $COLOR-WHITE: var(--color-white);
 $COLOR-PRIMARY-CONTRAST: var(--color-primary-contrast);
 $COLOR-GREEN: var(--color-green);
+$COLOR-GREEN--100: #62D4D5;
 $COLOR-LINK: blue;
+
 
 $COLORS: (
   "COLOR-PRIMARY": $COLOR-PRIMARY,
@@ -31,6 +33,7 @@ $COLORS: (
   "COLOR-WHITE": $COLOR-WHITE,
   "COLOR-PRIMARY-CONTRAST": $COLOR-PRIMARY-CONTRAST,
   "COLOR-GREEN":$COLOR-GREEN,
+  "COLOR-GREEN--100": $COLOR-GREEN--100
 );
 
 @each $COLOR-NAME,

@@ -1,9 +1,9 @@
 :root {
-  --color-primary: #000000;
-  --color-secondary: #545454;
+  --color-primary: #00FF83;
+  --color-secondary: #62D4D5;
   --color-white: #ffffff;
   --color-green: #00FF83;
-  --color-primary-contrast: #fff;
+  --color-primary-contrast: #303337;
   --font-primary: "Poppins", sans-serif;
   --font-secondary: "Poppins", sans-serif;
   --bs-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
@@ -47,6 +47,14 @@
 
 .text-color-green {
   color: var(--color-green) !important;
+}
+
+.bg-color-green--100 {
+  background-color: #62D4D5 !important;
+}
+
+.text-color-green--100 {
+  color: #62D4D5 !important;
 }
 
 .font-ibm {
@@ -178,7 +186,7 @@ a:hover {
   background-position: center;
 }
 .hero__item > .container {
-  min-height: 80vh;
+  min-height: 90vh;
 }
 .hero__title {
   color: white;
