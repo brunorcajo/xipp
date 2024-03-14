@@ -1,0 +1,59 @@
+:root {
+  //COLORS
+  --color-primary: #000000;
+  --color-secondary: #545454;
+  --color-white: #ffffff;
+  --color-white-100: #FBF9F7;
+  --color-white-200: #EEE5E5;
+  --color-white-300: #F7ECEA;
+  --color-white-400: #F2EEE9;
+  --color-link: #4A6CE5;
+
+  --color-primary-contrast: #fff;
+
+  //FONT
+  --font-primary: 'Inter', sans-serif;
+  --font-secondary: 'gooperblack';
+
+  //BOOTSTRAP CUSTOM
+  --bs-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+//BREAKPOINT-MAIN
+$BREAKPOINT: 1199px;
+
+//COLORS
+$COLOR-PRIMARY: var(--color-primary);
+$COLOR-SECONDARY: var(--color-secondary);
+$COLOR-SECONDARY: var(--color-secondary);
+$COLOR-WHITE: var(--color-white);
+$COLOR-WHITE-100: var(--color-white-100);
+$COLOR-WHITE-200: var(--color-white-200);
+$COLOR-WHITE-300: var(--color-white-300);
+$COLOR-WHITE-400: var(--color-white-400);
+$COLOR-LINK: var(--color-link);
+
+$COLOR-PRIMARY-CONTRAST: var(--color-primary-contrast);
+
+$COLORS: (
+  "COLOR-PRIMARY": $COLOR-PRIMARY,
+  "COLOR-SECONDARY": $COLOR-SECONDARY,
+  "COLOR-WHITE": $COLOR-WHITE,
+  "COLOR-WHITE-100": $COLOR-WHITE-100,
+  "COLOR-WHITE-200": $COLOR-WHITE-200,
+  "COLOR-WHITE-300": $COLOR-WHITE-300,
+  "COLOR-WHITE-400": $COLOR-WHITE-400,
+  "COLOR-PRIMARY-CONTRAST": $COLOR-PRIMARY-CONTRAST,
+
+);
+
+@each $COLOR-NAME,
+$COLOR-HEX in $COLORS {
+  .bg-#{to-lower-case($COLOR-NAME)} {
+    background-color: $COLOR-HEX !important;
+  }
+
+  .text-#{to-lower-case($COLOR-NAME)} {
+    color: $COLOR-HEX !important;
+  }
+}

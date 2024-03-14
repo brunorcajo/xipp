@@ -1,0 +1,17 @@
+@import "themes/themes";
+
+@mixin themable($theme-name, $theme-map) {
+    .#{$theme-name} {
+        @each $comp, $map in $theme-map {
+            .#{$comp} {
+                @if ($comp == box-secondary) {
+                    background: $COLOR-PURPLE;
+                    color: map-get($map, bg);
+                }
+            }
+        }
+    }
+}
+
+@include themable(theme-1, $theme-1);
+@include themable(theme-2, $theme-2);

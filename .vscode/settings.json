@@ -1,0 +1,12 @@
+{
+  "liveSassCompile.settings.useNewCompiler": true,
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".min.css",
+      "savePath": "~/../assets/css",
+      "savePathReplacementPairs": null
+    }
+  ],
+  "liveSassCompile.settings.autoprefix": []
+}

@@ -1,0 +1,84 @@
+.btn {
+
+  --bs-btn-padding-x: 2rem;
+  --bs-btn-padding-y: .7rem;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px 20px;
+  user-select: none;
+  text-decoration: none !important;
+  width: fit-content;
+
+  &-big {
+    font-size: 14px;
+  }
+
+  &-outline{
+
+    &-primary {
+      // --bs-btn-border-color: #{$COLOR-ORANGE};
+      // --bs-btn-color: #{$COLOR-ORANGE};
+      // --bs-btn-hover-color: #fff;
+      // --bs-btn-hover-bg: #dd480a;
+      // --bs-btn-focus-shadow-rgb: 49,132,253;
+      // --bs-btn-active-color: #fff;
+      // --bs-btn-active-bg: #{$COLOR-ORANGE};
+      // --bs-btn-active-border-color: #{$COLOR-ORANGE};
+      // --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+      // --bs-btn-disabled-color: #fff;
+      // --bs-btn-hover-border-color: #{$COLOR-ORANGE};
+      // --bs-btn-disabled-bg: #{$COLOR-ORANGE};
+      // --bs-btn-disabled-border-color: #{$COLOR-ORANGE};
+    }
+
+  }
+
+  &-secondary {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #{$COLOR-SECONDARY};
+    --bs-btn-border-color: #{$COLOR-SECONDARY};
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #f1a549;
+    --bs-btn-hover-border-color: #{$COLOR-SECONDARY};
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #{$COLOR-SECONDARY};
+    --bs-btn-active-bg: #{$COLOR-SECONDARY};
+    --bs-btn-active-border-color: #{$COLOR-SECONDARY};
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #{$COLOR-SECONDARY};
+    --bs-btn-disabled-border-color: #{$COLOR-SECONDARY};
+  }
+
+  &-icon {
+    position: relative;
+    transition: all ease-in-out .2s;
+    text-decoration: none;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    
+    & img {
+      margin-right: 8px;
+    }
+    
+    &:link:hover {
+      font-weight: 700;
+      text-decoration: none;
+    }
+  }
+
+}
+
+.arrow {
+  &::after {
+    content: "";
+    width: 18px;
+    height: 9px;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Generator: Adobe Illustrator 27.9.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 4.8 4.1' style='enable-background:new 0 0 4.8 4.1;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%234A6CE5;%7D%0A%3C/style%3E%3Cg id='Layer_2_00000082332629144838240210000005084086821171030151_'%3E%3Cpath class='st0' d='M2.6,0.1c-0.1,0.1-0.1,0.3,0,0.4l1.3,1.3H0.3C0.1,1.8,0,1.9,0,2.1c0,0.2,0.1,0.3,0.3,0.3h3.6L2.6,3.7 C2.5,3.8,2.5,4,2.6,4.1s0.3,0.1,0.4,0l1.8-1.8c0.1-0.1,0.1-0.3,0-0.4L3,0.1C2.9,0,2.7,0,2.6,0.1L2.6,0.1z'/%3E%3C/g%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -25px;
+  }
+}
