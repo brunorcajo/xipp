@@ -57,6 +57,22 @@
   color: #62D4D5 !important;
 }
 
+.bg-color-gray-700 {
+  background-color: #1E1E1E !important;
+}
+
+.text-color-gray-700 {
+  color: #1E1E1E !important;
+}
+
+.bg-color-gray-800 {
+  background-color: #24272C !important;
+}
+
+.text-color-gray-800 {
+  color: #24272C !important;
+}
+
 .font-ibm {
   font-family: "IBM Plex Sans", sans-serif;
 }
@@ -176,6 +192,12 @@ a:hover {
 }
 .header__courtain .inner a {
   font-size: 15px !important;
+}
+
+.vertical-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero {
