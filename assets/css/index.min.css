@@ -58,11 +58,11 @@
 }
 
 .bg-color-gray-700 {
-  background-color: #1E1E1E !important;
+  background-color: #303338 !important;
 }
 
 .text-color-gray-700 {
-  color: #1E1E1E !important;
+  color: #303338 !important;
 }
 
 .bg-color-gray-800 {
@@ -218,4 +218,36 @@ a:hover {
 }
 .hero__description {
   color: white;
+}
+
+.about {
+  position: relative;
+  pointer-events: none;
+  user-select: none;
+}
+.about__bg {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+
+.products {
+  position: relative;
+}
+.products__item p:not(.products__title), .products__item ul li {
+  font-size: 14px;
+  line-height: 1.4;
+}
+.products__title {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.products .slick-dots {
+  margin-bottom: -50px;
+}
+.products__arrow {
+  position: absolute;
+  top: -35px;
+  left: 50%;
 }/*# sourceMappingURL=index.min.css.map */

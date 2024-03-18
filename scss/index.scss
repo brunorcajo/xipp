@@ -1,4 +1,41 @@
 @import "core";
-
-
 @import "components/hero";
+
+.about {
+    position: relative;
+    pointer-events: none;
+    user-select: none;
+    &__bg {
+        position: absolute;
+        bottom: 50px;
+        left: 50px;
+    }
+}
+
+.products {
+    position: relative;
+    &__item {
+        & p:not(.products__title), ul li {
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+
+    }
+
+    &__title {
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+
+    & .slick-dots {
+        margin-bottom: -50px;
+    }
+
+    &__arrow {
+        position: absolute;
+        top: -35px;
+        left: 50%;;
+    }
+}

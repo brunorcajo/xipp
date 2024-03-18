@@ -58,11 +58,11 @@
 }
 
 .bg-color-gray-700 {
-  background-color: #1E1E1E !important;
+  background-color: #303338 !important;
 }
 
 .text-color-gray-700 {
-  color: #1E1E1E !important;
+  color: #303338 !important;
 }
 
 .bg-color-gray-800 {
@@ -417,7 +417,7 @@ a:hover {
 }
 
 .box {
-  padding: 50px 0;
+  padding: 100px 0;
 }
 .box-wrapper {
   display: grid;
@@ -518,4 +518,8 @@ body {
   height: 7px;
   width: 60px;
   display: inline-block;
+}
+.textDetail--xs {
+  height: 3px;
+  width: 30px;
 }/*# sourceMappingURL=main.min.css.map */
