@@ -231,8 +231,24 @@ a:hover {
   left: 50px;
 }
 
+.solutions {
+  position: relative;
+}
+.solutions__arrow {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  z-index: 99;
+}
+
 .products {
   position: relative;
+  overflow: hidden;
+}
+.products__bg {
+  position: absolute;
+  bottom: -50px;
+  left: -50px;
 }
 .products__item p:not(.products__title), .products__item ul li {
   font-size: 14px;
@@ -246,8 +262,43 @@ a:hover {
 .products .slick-dots {
   margin-bottom: -50px;
 }
-.products__arrow {
-  position: absolute;
-  top: -35px;
-  left: 50%;
+
+.profile {
+  flex: 0 1 33%;
+  margin-bottom: 50px;
+}
+.profile > a {
+  text-decoration: none;
+}
+.profile__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.profile .slick-dots {
+  margin-bottom: -50px;
+}
+
+.contact {
+  --bs-body-bg: #24272C;
+  --bs-body-color: white;
+  --bs-body-color-rgb: white;
+}
+.contact input {
+  border: none;
+  background: transparent;
+  border-bottom: solid 1px white;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none;
+  padding: 30px 5px 10px !important;
+}
+.contact input:active, .contact input:focus {
+  box-shadow: none;
+}
+.contact label {
+  font-size: 15px;
+  padding: 1rem 0;
+}
+.contact .form-floating > .form-control:focus ~ label {
+  transform: scale(0.75) translateY(-0.2rem) translateX(0.45rem);
 }/*# sourceMappingURL=index.min.css.map */

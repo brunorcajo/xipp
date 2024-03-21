@@ -1,0 +1,19 @@
+
+.profile {
+    
+    & > a {
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        &__title {
+            
+        }
+        
+        &__description {
+            font-size: 14px;
+        }
+    }
+}

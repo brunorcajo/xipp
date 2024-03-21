@@ -12,15 +12,31 @@
     }
 }
 
+.solutions {
+    position: relative;
+    &__arrow {
+        position: absolute;
+        bottom: -50px;
+        left: 50%;;
+        z-index: 99;
+    }
+}
+
 .products {
     position: relative;
+    overflow: hidden;
+
+    &__bg {
+        position: absolute;
+        bottom: -50px;
+        left: -50px;
+    }
+
     &__item {
         & p:not(.products__title), ul li {
             font-size: 14px;
             line-height: 1.4;
         }
-
-
     }
 
     &__title {
@@ -33,9 +49,68 @@
         margin-bottom: -50px;
     }
 
-    &__arrow {
-        position: absolute;
-        top: -35px;
-        left: 50%;;
+    
+}
+
+.profile {
+
+    flex: 0 1 33%;
+    margin-bottom: 50px;
+
+    & > a {
+        text-decoration: none;
+    }
+    
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    & .slick-dots {
+        margin-bottom: -50px;
+    }
+
+}
+
+.contact {
+
+    --bs-body-bg: #24272C;
+    --bs-body-color: white;
+    --bs-body-color-rgb: white;
+
+    // input {
+    //     background-color: $COLOR-GRAY-800;
+    //     color: white;
+        
+    //     &:focus {
+    //         background-color: $COLOR-GRAY-800;
+    //         color: white;
+    //     }
+    // }
+
+    input {
+        border: none;
+        background: transparent;
+        border-bottom: solid 1px white;
+        border-radius: 0;
+        outline: none;
+        box-shadow: none;
+        padding: 30px 5px 10px !important;
+        
+        &:active, &:focus {
+            box-shadow: none;
+        }
+    }
+
+    label {
+        font-size: 15px;
+        padding: 1rem 0;
+
+        &::after {
+        }
+    }
+
+    .form-floating>.form-control:focus~label {
+        transform: scale(0.75) translateY(-0.2rem) translateX(0.45rem);
     }
 }

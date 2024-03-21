@@ -103,15 +103,17 @@
         <div class="container">
             <div class="row h-100">
                 <div class="col-6 vertical-column-center">
-                    <p class="box-content__title mb-5">
-                        Como fazemos
-                    </p>
-                    <p class="box-content__description">
-                        Ouvindo diariamente os nossos clientes, unimos a experiência do nosso time técnico e consultivo
-                        com uma metodologia própria, que gera uma proposta de valor personalizada em uma plataforma
-                        digital exclusiva trazendo agilidade, autonomia, inovação e segurança aos desafios dos nossos
-                        clientes.
-                    </p>
+                    <div class="px-5">
+                        <p class="box-content__title mb-5">
+                            Como fazemos
+                        </p>
+                        <p class="box-content__description">
+                            Ouvindo diariamente os nossos clientes, unimos a experiência do nosso time técnico e consultivo
+                            com uma metodologia própria, que gera uma proposta de valor personalizada em uma plataforma
+                            digital exclusiva trazendo agilidade, autonomia, inovação e segurança aos desafios dos nossos
+                            clientes.
+                        </p>
+                    </div>
                 </div>
                 <div class="col-6">
                     <img src="/assets/images/img-how.png" class="img-fluid" alt="Sobre nós">
@@ -139,6 +141,9 @@
     </section>
 
     <section class="solutions bg-color-gray-800 box box-content">
+        <div class="solutions__arrow">
+            <img src="/assets/images/products-arrow.png" alt="">
+        </div>
         <div class="container">
             <h2 class="h2 mb-5">
                 Soluções
@@ -157,8 +162,9 @@
     </section>
 
     <section class="products box box-content bg-color-gray-700 position-relative">
-        <div class="products__arrow">
-            <img src="/assets/images/products-arrow.png" alt="">
+        
+        <div class="products__bg">
+            <img src="/assets/images/bg-products.png" alt="">
         </div>
         <h2 class="h2 mb-5 text-center">
             Produtos e serviços
@@ -300,22 +306,111 @@
         </div>
     </section>
 
-    <section class="talents">
-
+    <section class="talents bg-color-gray-800 box box-content">
+        <div class="container">
+            <h2 class="h2 mb-5">
+                Alguns dos nossos talentos
+                <span class="textDetail textDetail--xs"></span>
+            </h2>
+        </div>
+        <div class="talents__items carousel-default">
+            <div class="talents__item">
+                <div class="container d-flex profile__wrapper">
+                    <div class="profile">
+                        <a href="#">
+                            <img src="/assets/images/profile/profile-gustavo.png" alt="">
+                            <p class="profile__title text-color-primary fs-5">Gustavo Rudge Clark</p>
+                            <p class="profile__description text-white text-uppercase">CEO</p>
+                        </a>
+                    </div>
+                    <div class="profile">
+                        <a href="#">
+                            <img src="/assets/images/profile/profile-gustavo.png" alt="">
+                            <p class="profile__title text-color-primary fs-5">Gustavo Rudge Clark</p>
+                            <p class="profile__description text-white text-uppercase">CEO</p>
+                        </a>
+                    </div>
+                    <div class="profile">
+                        <a href="#">
+                            <img src="/assets/images/profile/profile-gustavo.png" alt="">
+                            <p class="profile__title text-color-primary fs-5">Gustavo Rudge Clark</p>
+                            <p class="profile__description text-white text-uppercase">CEO</p>
+                        </a>
+                    </div>
+                    <div class="profile">
+                        <a href="#">
+                            <img src="/assets/images/profile/profile-gustavo.png" alt="">
+                            <p class="profile__title text-color-primary fs-5">Gustavo Rudge Clark</p>
+                            <p class="profile__description text-white text-uppercase">CEO</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="docs">
-
+    <section class="part bg-color-gray-700">
+        <div class="container">
+            <div class="row h-100">
+                <div class="col-6 pe-0">
+                    <img src="/assets/images/part.png" class="img-fluid" alt="Sobre nós">
+                </div>
+                <div class="col-6 vertical-column-center">
+                    <div class="px-5">
+                        <h2 class="h2 mb-5">
+                            Faça parte
+                            <span class="textDetail textDetail--xs"></span>
+                        </h2>
+                        <p class="box-content__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae molestie ipsum. Fusce egestas, erat ut varius tempor, ipsum massa mattis sem, a efficitur
+                        </p>
+                        <div class="cta mt-4">
+                            <a href="#" class="btn btn-primary">
+                                Faça parte
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
     </section>
 
-    <section class="contacts">
-
+    <section class="contact bg-color-gray-800">
+        <div class="container">
+            <div class="row h-100">
+                <div class="col-6 vertical-column-center">
+                    <h2 class="h2 mb-5">
+                        Entre em contato
+                        <span class="textDetail textDetail--xs"></span>
+                    </h2>
+                    <p class="box-content__description">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="txtNome" placeholder="Nome" autocomplete="off">
+                                    <label for="floatingPassword">Nome*</label>
+                                  </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="txtEmail" placeholder="Email">
+                                    <label for="floatingPassword">Email</label>
+                                  </div>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+                <div class="col-6 ps-0">
+                    <img src="/assets/images/contact.png" class="img-fluid" alt="Sobre nós">
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer class="footer">
 
     </footer>
-
 
     <script src="/assets/js/vendor/jquery-3.7.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
