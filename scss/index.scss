@@ -77,20 +77,11 @@
     --bs-body-bg: #24272C;
     --bs-body-color: white;
     --bs-body-color-rgb: white;
+    // --bs-form-select-bg-img: 
 
-    // input {
-    //     background-color: $COLOR-GRAY-800;
-    //     color: white;
-        
-    //     &:focus {
-    //         background-color: $COLOR-GRAY-800;
-    //         color: white;
-    //     }
-    // }
-
-    input {
+    input:not(input[type=checkbox]), textarea, select {
         border: none;
-        background: transparent;
+        //background: transparent;
         border-bottom: solid 1px white;
         border-radius: 0;
         outline: none;
@@ -102,12 +93,29 @@
         }
     }
 
-    label {
+    .form-floating label {
         font-size: 15px;
         padding: 1rem 0;
+    }
 
-        &::after {
+    label {
+        & a {
+            font-weight: bold;
+            color: white;
         }
+    }
+
+    select {
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23dee2e6' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e") !important;
+        background-repeat: no-repeat;
+        background-position: 100% 70%;
+    }
+
+    option {
+        background-color: #303338;
     }
 
     .form-floating>.form-control:focus~label {

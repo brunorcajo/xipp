@@ -283,21 +283,35 @@ a:hover {
   --bs-body-color: white;
   --bs-body-color-rgb: white;
 }
-.contact input {
+.contact input:not(input[type=checkbox]), .contact textarea, .contact select {
   border: none;
-  background: transparent;
   border-bottom: solid 1px white;
   border-radius: 0;
   outline: none;
   box-shadow: none;
   padding: 30px 5px 10px !important;
 }
-.contact input:active, .contact input:focus {
+.contact input:not(input[type=checkbox]):active, .contact input:not(input[type=checkbox]):focus, .contact textarea:active, .contact textarea:focus, .contact select:active, .contact select:focus {
   box-shadow: none;
 }
-.contact label {
+.contact .form-floating label {
   font-size: 15px;
   padding: 1rem 0;
+}
+.contact label a {
+  font-weight: bold;
+  color: white;
+}
+.contact select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23dee2e6' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e") !important;
+  background-repeat: no-repeat;
+  background-position: 100% 70%;
+}
+.contact option {
+  background-color: #303338;
 }
 .contact .form-floating > .form-control:focus ~ label {
   transform: scale(0.75) translateY(-0.2rem) translateX(0.45rem);

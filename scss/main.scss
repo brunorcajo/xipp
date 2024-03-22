@@ -6,6 +6,7 @@
 @import "components/box";
 @import "components/carousel";
 @import "components/profile";
+@import "components/footer";
 
 * {
   box-sizing: border-box;
@@ -37,4 +38,31 @@ body {
     }
 
 }
+
+.vorttex {
+  //position: absolute;
+  bottom: 0;
+  padding: 20px 0;
+  opacity: 1;
+  border-top: solid 1px rgba(0, 0, 0, 0.05);
+  background-color: white;
+
+  & a {
+    color: #145187;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    & span {
+      font-size: 11px;
+    }
+  }
+
+  & img {
+    min-height: 10px;
+  }
+}
+
 

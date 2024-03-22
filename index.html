@@ -108,9 +108,11 @@
                             Como fazemos
                         </p>
                         <p class="box-content__description">
-                            Ouvindo diariamente os nossos clientes, unimos a experiência do nosso time técnico e consultivo
+                            Ouvindo diariamente os nossos clientes, unimos a experiência do nosso time técnico e
+                            consultivo
                             com uma metodologia própria, que gera uma proposta de valor personalizada em uma plataforma
-                            digital exclusiva trazendo agilidade, autonomia, inovação e segurança aos desafios dos nossos
+                            digital exclusiva trazendo agilidade, autonomia, inovação e segurança aos desafios dos
+                            nossos
                             clientes.
                         </p>
                     </div>
@@ -162,7 +164,7 @@
     </section>
 
     <section class="products box box-content bg-color-gray-700 position-relative">
-        
+
         <div class="products__bg">
             <img src="/assets/images/bg-products.png" alt="">
         </div>
@@ -269,7 +271,8 @@
                                 <img src="/assets/images/ico/ico-eu-protegido-xs.png" alt="" class="me-2">
                                 CONEXÃO MÉDICA
                             </p>
-                            <p class="products__title mb-5 pe-5">Eu <span class="text-color-primary">Protegido</span></p>
+                            <p class="products__title mb-5 pe-5">Eu <span class="text-color-primary">Protegido</span>
+                            </p>
                             <p class="fs-6">
                                 01_ Benefícios em um único lugar <br>
                                 02_ Cuidados e atenção em saúde <br>
@@ -362,7 +365,8 @@
                             <span class="textDetail textDetail--xs"></span>
                         </h2>
                         <p class="box-content__description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae molestie ipsum. Fusce egestas, erat ut varius tempor, ipsum massa mattis sem, a efficitur
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae molestie ipsum. Fusce
+                            egestas, erat ut varius tempor, ipsum massa mattis sem, a efficitur
                         </p>
                         <div class="cta mt-4">
                             <a href="#" class="btn btn-primary">
@@ -371,7 +375,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </section>
@@ -380,26 +384,95 @@
         <div class="container">
             <div class="row h-100">
                 <div class="col-6 vertical-column-center">
-                    <h2 class="h2 mb-5">
-                        Entre em contato
-                        <span class="textDetail textDetail--xs"></span>
-                    </h2>
-                    <p class="box-content__description">
-                        <div class="row">
-                            <div class="col">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="txtNome" placeholder="Nome" autocomplete="off">
-                                    <label for="floatingPassword">Nome*</label>
-                                  </div>
+
+                    <div class="px-5">
+                        <h2 class="h2 mb-5">
+                            Entre em contato
+                            <span class="textDetail textDetail--xs"></span>
+                        </h2>
+
+                        <form action="send.php" class="needs-validation" novalidate>
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="txtNome" placeholder="Nome"
+                                            autocomplete="off" required>
+                                        <label for="floatingPassword">Nome*</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="txtEmail" placeholder="Email"  autocomplete="off" required>
+                                        <label for="floatingPassword">Email*</label>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" id="txtEmail" placeholder="Email">
-                                    <label for="floatingPassword">Email</label>
-                                  </div>
+
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="txtNome" placeholder="Nome"
+                                            autocomplete="off" required>
+                                        <label for="floatingPassword">Telefone</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-floating">
+                                        <select class="form-select" id="floatingSelect"
+                                            aria-label="Número de titulares ou dependentes">
+                                            <option selected>Selecione</option>
+                                            <option value="1">Até 29 vidas</option>
+                                            <option value="2">30 a 99 vidas</option>
+                                            <option value="3">Acima de 100 vidas</option>
+                                        </select>
+                                        <label for="floatingSelect">Nº de titulares/dependentes</label>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </p>
+
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Leave a comment here"
+                                            id="floatingTextarea2"  autocomplete="off" style="height: 80px" required></textarea>
+                                        <label for="floatingTextarea2">Mensagem *</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+                                        <label class="form-check-label fs-6" for="autoSizingCheck">
+                                            <span class="text-white">Aceito receber conteúdos no meu e-mail da XIPP.</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck1" required>
+                                        <label class="form-check-label fs-6" for="gridCheck1">
+                                            <span class="text-white">Aceito os <a href="#">Termos e condições</a> e a <a href="#">Política de
+                                                Privacidade</a>.</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <button type="submit"  class="btn btn-primary">
+                                        ENVIAR
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
                 </div>
                 <div class="col-6 ps-0">
                     <img src="/assets/images/contact.png" class="img-fluid" alt="Sobre nós">
@@ -408,9 +481,39 @@
         </div>
     </section>
 
-    <footer class="footer">
+    <footer class="footer bg-color-gray-700">
+        <div class="container">
 
+            <div class="row">
+                <div class="col d-flex align-items-center">
+                    <img src="/assets/images/xipp-brand-footer.png" alt="XIPP" class="">
+                    <span class="fs-7 mx-5">© Copyright 2024</span>
+                    <div class="media">
+                        <a href="https://www.instagram.com/xippseguros/" target="_blank" class="me-3"><img src="/assets/images/ico/ico-ins.svg" alt="Instagram"></a>
+                        <a href="https://www.instagram.com/xippseguros/" target="_blank" class="me-3"><img src="/assets/images/ico/ico-in.svg" alt="Linkedin"></a>
+                        <a href="https://api.whatsapp.com/send?phone=551140409010" target="_blank"><img src="/assets/images/ico/ico-whats.svg" alt="Whatsapp"></a>
+                    </div>
+                </div>
+                <div class="col text-end">
+                    <a href="#" class="text-white fs-7">Termos e Condições</a>
+                    <span class="mx-3">|</span>
+                    <a href="#" class="text-white fs-7">Política de Privacidade</a>
+                </div>
+            </div>
+        </div>
+
+        
     </footer>
+
+    <div class="vorttex w-100">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="http://www.vorttex.com.br?utm=XIPP" target="_blank"><img src="/assets/images/vorttex.svg"
+                    alt="Vorttex" /></a>
+            <a href="http://www.vorttex.com.br?utm=XIPP" target="_blank">
+                <span>Powered by Vorttex</span>
+            </a>
+        </div>
+    </div>
 
     <script src="/assets/js/vendor/jquery-3.7.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -419,6 +522,11 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
     <script src="/assets/js/app.js"></script>
+
+
+    <script>
+        app.home();
+    </script>
 </body>
 
 </html>
