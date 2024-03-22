@@ -12,6 +12,10 @@
     font-size: 14px;
   }
 
+  &:first-child:active, &:first-child:hover {
+    color: #{$COLOR-PRIMARY-CONTRAST};
+  }
+
   &-primary {
     --bs-btn-bg: #{$COLOR-PRIMARY};
     --bs-btn-border-color: #{$COLOR-PRIMARY};
@@ -27,6 +31,7 @@
     --bs-btn-hover-border-color: #{$COLOR-PRIMARY};
     --bs-btn-disabled-bg: #{$COLOR-PRIMARY};
     --bs-btn-disabled-border-color: #{$COLOR-PRIMARY};
+    color: #{$COLOR-PRIMARY-CONTRAST};
   }
 
   &-secondary {

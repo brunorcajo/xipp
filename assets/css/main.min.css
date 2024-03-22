@@ -328,6 +328,9 @@ a:hover {
 .btn-big {
   font-size: 14px;
 }
+.btn:first-child:active, .btn:first-child:hover {
+  color: var(--color-primary-contrast);
+}
 .btn-primary {
   --bs-btn-bg: var(--color-primary);
   --bs-btn-border-color: var(--color-primary);
@@ -343,6 +346,7 @@ a:hover {
   --bs-btn-hover-border-color: var(--color-primary);
   --bs-btn-disabled-bg: var(--color-primary);
   --bs-btn-disabled-border-color: var(--color-primary);
+  color: var(--color-primary-contrast);
 }
 .btn-secondary {
   --bs-btn-bg: var(--color-secondary);
@@ -734,4 +738,10 @@ body {
   color: white;
   line-height: 1.8;
   font-weight: 400;
+}
+
+.dropdown-item {
+  font-size: 13px;
+  background: none !important;
+  color: #212529;
 }/*# sourceMappingURL=main.min.css.map */
