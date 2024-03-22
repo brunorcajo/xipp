@@ -78,49 +78,155 @@ const app = {
             subtitle: "",
             headline: "CEO",
             description: `<p>
-                +20 anos de experiência no mercado segurador.Trajetória executiva marcada por empreendedorismo e vivência mercadológica, técnica e executiva, em importantes corretoras do mercado nacional e internacional de seguros. Ao longo de sua carreira como Líder, criou produtos e serviços inovadores e colaborou com o fortalecimento de culturas organizacionais.
+            +20 anos de experiência no mercado segurado. 
+            Trajetória executiva marcada por empreendedorismo e vivência mercadológica, técnica e executiva, em importantes corretoras do mercado nacional e internacional de seguros. Ao longo de sua carreira como Líder, criou produtos e serviços inovadores e colaborou com o fortalecimento de culturas organizacionais.            
             </p>`
           },
-          gabriel: {
-            image_bg: "profile-grabiel.png",
-            title: "Gabriel Casella",
-            subtitle: "CFA",
-            headline: "Partner & Health Sector Lead",
+          christian: {
+            image_bg: "profile-christian-pop.png",
+            title: "Christian Lima",
+            headline: "Vice Presidente",
             description: `<p>
-            Gabriel has 11 years of experience in alternative investments and over 8 years of experience in PE and VC, both in Brazil and US. 
-            <br /><br />
-            He worked for 8 years at Península, and is a partner at Altitude, leading the healthcare pratice. Gabriel led several deals in PE and VC, most notably: Olist, Sanar, HiLab, Tembici, Wine, and Oncoclinicas. 
-            <br /><br />
-            He previously worked in Brazil at Mattos Filho Advogados and Credit Suisse, and in the US at Valor Capital Group (New York), Chicago Pacific Founders (Chicago) and Civilization Ventures (San Francisco). 
-            <br /><br />
-            Gabriel holds a Business degree from FGV, a Law degree from USP, and an MBA from Chicago Booth School of Business. He is also a CFA Charterholder and member of the Brazilian Bar Association.
-            <p>`
+            +30 anos de experiência no mercado segurador. 
+            Carreira executiva marcada pelo Desenvolvimento de Novos Negócios e construção de relacionamento com clientes, seguradoras e operadoras de saúde.<p>`
           },
-          renato: {
-            image_bg: "profile-renato.png",
-            title: "Renato Pavan",
+          abigail: {
+            image_bg: "profile-abigail-pop.png",
+            title: "Abigail Alberti",
             subtitle: "",
-            headline: "Associate & Retail Sector Lead",
-            description: `<p>Renato has 7 years of experience in equities and venture capital investments. 
-            <br /><br />
-            He led several VC deals in retail, health, logistics, marketing and fintech sectors. At Altitude, Renato leads the retail thesis.  
-            <br /><br />
-            Previously, Renato worked with venture capital at KPTL, in the investment team at Constellation Asset Management and in equity research at Credit Suisse. 
-            <br /><br />
-            Renato holds a degree in Business Administration from FEA-USP.</p>`
+            headline: "Diretora Comercial",
+            description: `<p>
+            +25 anos de experiência no mercado segurador.
+            Responsável pela expansão e desenvolvimento de negócios da XIPP, além de identificar as melhores soluções de Benefícios para empresas de todos os tamanhos e mais diversos segmentos. Anteriormente foi Executiva das áreas Operacional, Relacionamento com clientes e Comercial de importantes corretoras de seguros.</p>`
           },
-          thais: {
-            image_bg: "profile-thais.png",
-            title: "Thais Carballido",
+          benisario: {
+            image_bg: "profile-benisario-pop.png",
+            title: "Benisario Almeida",
             subtitle: "",
-            headline: "Analyst & Education & Impact Focus",
-            description: `<p>Thais has 4 years of experience in venture capital. 
-            <br /><br />
-            At Altitude, she analyzes investment opportunities in mulitple sectors and supports the education sector practice. Thais is also responsible for the impact and ESG diligence of the portfolio and new opportunities. 
-            <br /><br />
-            Previously, Thais worked at Unilever and in the investment team at KPTL. 
-            <br /><br />
-            She holds a degree in Economics from FEA-USP and has the CFA Certificate in ESG Investing.</p>`
+            headline: "Diretor de Operações",
+            description: `<p>
+            +25 anos de experiência no mercado segurador.
+            Responsável pelo desenvolvimento e condução dos processos e rotinas da administradora da XIPP, promovendo a correta implantação e gestão dos contratos com as operadoras parceiras e os clientes. Executivo com sólida experiência na estruturação e gestão de administradoras de benefícios, tendo atuado em grandes</p>`
+          },
+
+          benisario: {
+            image_bg: "profile-benisario-pop.png",
+            title: "Benisario Almeida",
+            subtitle: "",
+            headline: "Diretor de Operações",
+            description: `<p>
+            +25 anos de experiência no mercado segurador.
+            Responsável pelo desenvolvimento e condução dos processos e rotinas da administradora da XIPP, promovendo a correta implantação e gestão dos contratos com as operadoras parceiras e os clientes. Executivo com sólida experiência na estruturação e gestão de administradoras de benefícios, tendo atuado em grandes</p>`
+          },
+
+          fernanda: {
+            image_bg: "profile-fernanda-pop.png",
+            title: "Fernanda Lopes",
+            subtitle: "",
+            headline: "Diretor",
+            description: `<p></p>`
+          },
+
+          nome: {
+            image_bg: "profile-benisario-pop.png",
+            title: "Benisario",
+            subtitle: "",
+            headline: "Gerente de Pessoas e Cultura",
+            description: `<p>+20 anos de experiência na área de recursos humanos.
+            Responsável pelo RH com forte atuação em recrutamento e seleção de novos talentos, administração de pessoal e benefícios, além de atuação em desenvolvimento organizacional.
+            </p>`
+          },
+
+          gustavo: {
+            image_bg: "profile-benisario-pop.png",
+            title: "Gustavo Leone",
+            subtitle: "",
+            headline: "Diretor Comercial Corporate",
+            description: `<p>+15 anos de experiência no mercado segurador.
+            Responsável pela expansão e desenvolvimento de negócios da XIPP, além de identificar as melhores soluções de Benefícios para empresas de grande porte e dos mais diversos segmentos. Anteriormente foi executivo comercial de importantes corretoras de seguros. </p>`
+          },
+
+          belisario: {
+            image_bg: "profile-benisario-pop.png",
+            title: "Benisario",
+            subtitle: "",
+            headline: "Diretor",
+            description: `<p></p>`
+          },
+
+          joao: {
+            image_bg: "profile-benisario-pop.png",
+            title: "João Marçon",
+            subtitle: "",
+            headline: "Diretor",
+            description: `<p></p>`
+          },
+
+          benisario: {
+            image_bg: "profile-benisario-pop.png",
+            title: "Benisario",
+            subtitle: "",
+            headline: "CIO",
+            description: `<p>+20 anos de experiência no mercado segurador e tecnologia.
+            Responsável por garantir o desenvolvimento de sistemas e soluções digitais da XIPP.
+            Atuou anteriormente como Executivo da área de TI em empresas nacionais e multinacionais, para diversos segmentos relacionados a Saúde, como seguradoras e operadoras, empresas de medicamentos e consultorias de benefícios.</p>`
+          },
+
+          jose: {
+            image_bg: "profile-jose-pop.png",
+            title: "José Antonio Coelho Júnior",
+            subtitle: "",
+            headline: "Diretor Estratégico de Saúde",
+            description: `<p>+13 anos de experiência no mercado de saúde corporativa e benefícios.
+            Formado em Medicina e pós graduado em Cirurgia pela Universidade Estadual de Campinas. Possui formação em pós graduação e especialização em Gestão de Negócios e Liderança Estratégica. Profissional com grande experiência em estratégia e modelagem de soluções e sistemas de Benefícios, Qualidade, Saúde, Segurança e Meio Ambiente. Possui carreira com experiência em liderança executiva dentro de grandes corporações, consultoria estratégica em vários setores da saúde e docência de gestão e inovação em saúde.
+            </p>`
+          },
+
+          lyverson : {
+            image_bg: "profile-lyverson-pop.png",
+            title: "Lyverson Viana",
+            subtitle: "",
+            headline: "Diretor de Canais",
+            description: `<p>+20 anos de experiência no mercado segurador e financeiro
+            Responsável pela expansão e desenvolvimento de negócios da XIPP, focada aos canais com Bancos e Corretoras de Investimentos. Anteriormente atuou como Executivo nas áreas de Administração, Produtos, Novos Negócios, varejo, Growth e Parcerias comerciais de seguradoras e operadoras e empresas do setor financeiro.</p>`
+          },
+
+          maria: {
+            image_bg: "profile-maria-pop.png",
+            title: "Maria Valins",
+            subtitle: "",
+            headline: "CFO",
+            description: `<p>+20 anos de experiência no mercado segurador
+            Responsável pela área Administrativa e Financeira da XIPP. Ao longo de sua carreira, adquiriu experiência em processos de M&A, Due Dilligence e forte relacionamento com órgãos reguladores (ANS, SUSEP), atuando em grandes companhias de seguros como seguradoras e corretoras.</p>`
+          },
+
+
+          silvia: {
+            image_bg: "profile-silvia-pop.png",
+            title: "Silvia de Carvalho Jaldin",
+            subtitle: "",
+            headline: "Gerente de Saúde",
+            description: `<p>+18 anos de experiência na saúde suplementar, atividades executivas em grandes hospitais e seguradoras, participando ativamente em grupos associativos e sociedades médicas
+            Médica pela Faculdade de Medicina de Santo Amaro/UNIS. Delegada Superintendente Adjunta do CREMESP – Regional Norte. Diretora de Ética, Defesa e Valorização Profissional da Sociedade Brasileira de Auditoria Médica. Consultora para Assuntos da Saúde Suplementar e Gestão do Benefício Saúde para Empresa. Professora Tutora da Liga Acadêmica de Inovação, Finanças e Empreendedorismo na Medicina da Faculdade Medicina Sto. Amaro. Professora Convidada da Pós-Graduação em Saúde Suplementar na Escola Nacional de Seguros.</p>`
+          },
+
+          stella: {
+            image_bg: "profile-stella-pop.png",
+            title: "Stella Spera",
+            subtitle: "",
+            headline: "Diretora de Relacionamento e Operação",
+            description: `<p>+20 anos de experiência no mercado segurador
+            Responsável pelo atendimento ao cliente, implantação e operação da XIPP. Ao longo de sua carreira foi Executiva em grandes operadoras de saúde e corretoras de seguros.</p>`
+          },
+
+          walter: {
+            image_bg: "profile-walter-pop.png",
+            title: "Walter Cavichio",
+            subtitle: "",
+            headline: "Walter Cavichio",
+            description: `<p>+20 anos de experiência no mercado segurador
+            Responsável pela área técnica da XIPP, que inclui a gestão e desenho de portfólio de produtos e serviços internos, junto às seguradoras e operadoras, bem como a colocação de risco (Placement). Atuou como Executivo em grandes corretoras e operadoras de seguros, com foco no desenvolvimento de análise diagnóstica de benefícios, estudos de mercado, avaliação de risco e gestão de saúde.
+            </p>`
           },
         }
       },
