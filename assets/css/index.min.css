@@ -7,6 +7,7 @@
   --font-primary: "Poppins", sans-serif;
   --font-secondary: "Poppins", sans-serif;
   --bs-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+  --bs-btn-close-white-filter: invert(1) grayscale(100%) brightness(200%);
 }
 
 .bg-color-primary {
@@ -263,19 +264,17 @@ a:hover {
   margin-bottom: -50px;
 }
 
+.talents .slick-dots {
+  margin-bottom: -50px;
+}
+
 .profile {
   flex: 0 1 33%;
   margin-bottom: 50px;
 }
-.profile > a {
-  text-decoration: none;
-}
 .profile__wrapper {
   display: flex;
   flex-wrap: wrap;
-}
-.profile .slick-dots {
-  margin-bottom: -50px;
 }
 
 .contact {

@@ -52,24 +52,22 @@
     
 }
 
+.talents {
+    & .slick-dots {
+        margin-bottom: -50px;
+    }
+}
+
 .profile {
 
     flex: 0 1 33%;
     margin-bottom: 50px;
 
-    & > a {
-        text-decoration: none;
-    }
-    
     &__wrapper {
         display: flex;
         flex-wrap: wrap;
+        
     }
-
-    & .slick-dots {
-        margin-bottom: -50px;
-    }
-
 }
 
 .contact {
@@ -77,11 +75,9 @@
     --bs-body-bg: #24272C;
     --bs-body-color: white;
     --bs-body-color-rgb: white;
-    // --bs-form-select-bg-img: 
 
     input:not(input[type=checkbox]), textarea, select {
         border: none;
-        //background: transparent;
         border-bottom: solid 1px white;
         border-radius: 0;
         outline: none;
