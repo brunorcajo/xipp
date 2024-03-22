@@ -45,11 +45,11 @@ const app = {
         $(".modal-sub-title").html(subtitle);
         $(".modal-headline").html(headline);
         $(".modal-body").html(description);
-        $(".modal-img").css("background-image", `url(/assets/images/${image_bg})`);
+        $(".modal-img").css("background-image", `url(/assets/images/profile/${image_bg})`);
 
         if (image) {
           $(".modal-img").html(`
-                <img src="/assets/images/${image}" alt="${title}" class="img-fluid"/>
+                <img src="/assets/images/profile/${image}" alt="${title}" class="img-fluid"/>
               `).addClass("modal-img--brand");
         }
       })
@@ -69,7 +69,7 @@ const app = {
     dataset:
     {
       gustavo: {
-        image_bg: "profile-gustavo-pop.png",
+        image_bg: "gustavo.png",
         title: "Gustavo Rudge Clark",
         subtitle: "",
         headline: "CEO",
@@ -79,7 +79,7 @@ const app = {
             </p>`
       },
       christian: {
-        image_bg: "profile-christian-pop.png",
+        image_bg: "christian.png",
         title: "Christian Lima",
         headline: "Vice Presidente",
         description: `<p>
@@ -87,7 +87,7 @@ const app = {
             Carreira executiva marcada pelo Desenvolvimento de Novos Negócios e construção de relacionamento com clientes, seguradoras e operadoras de saúde.<p>`
       },
       abigail: {
-        image_bg: "profile-abigail-pop.png",
+        image_bg: "abigail.png",
         title: "Abigail Alberti",
         subtitle: "",
         headline: "Diretora Comercial",
@@ -96,7 +96,7 @@ const app = {
             Responsável pela expansão e desenvolvimento de negócios da XIPP, além de identificar as melhores soluções de Benefícios para empresas de todos os tamanhos e mais diversos segmentos. Anteriormente foi Executiva das áreas Operacional, Relacionamento com clientes e Comercial de importantes corretoras de seguros.</p>`
       },
       benisario: {
-        image_bg: "profile-benisario-pop.png",
+        image_bg: "benisario.png",
         title: "Benisario Almeida",
         subtitle: "",
         headline: "Diretor de Operações",
@@ -105,7 +105,7 @@ const app = {
             Responsável pelo desenvolvimento e condução dos processos e rotinas da administradora da XIPP, promovendo a correta implantação e gestão dos contratos com as operadoras parceiras e os clientes. Executivo com sólida experiência na estruturação e gestão de administradoras de benefícios, tendo atuado em grandes</p>`
       },
       fernanda: {
-        image_bg: "profile-fernanda-pop.png",
+        image_bg: "fernanda.png",
         title: "Fernanda Lopes",
         subtitle: "",
         headline: "Diretor",
@@ -114,7 +114,7 @@ const app = {
         </p>`
       },
       leone: {
-        image_bg: "profile-leone-pop.png",
+        image_bg: "leone.png",
         title: "Gustavo Leone",
         subtitle: "",
         headline: "Diretor Comercial Corporate",
@@ -122,7 +122,7 @@ const app = {
             Responsável pela expansão e desenvolvimento de negócios da XIPP, além de identificar as melhores soluções de Benefícios para empresas de grande porte e dos mais diversos segmentos. Anteriormente foi executivo comercial de importantes corretoras de seguros. </p>`
       },
       joao: {
-        image_bg: "profile-joao-pop.png",
+        image_bg: "joao.png",
         title: "João Marçon",
         subtitle: "",
         headline: "CIO",
@@ -132,7 +132,7 @@ const app = {
             </p>`
       },
       jose: {
-        image_bg: "profile-jose-pop.png",
+        image_bg: "jose.png",
         title: "José Antonio Coelho Júnior",
         subtitle: "",
         headline: "Diretor Estratégico de Saúde",
@@ -141,7 +141,7 @@ const app = {
             </p>`
       },
       lyverson: {
-        image_bg: "profile-lyverson-pop.png",
+        image_bg: "lyverson.png",
         title: "Lyverson Viana",
         subtitle: "",
         headline: "Diretor de Canais",
@@ -149,7 +149,7 @@ const app = {
             Responsável pela expansão e desenvolvimento de negócios da XIPP, focada aos canais com Bancos e Corretoras de Investimentos. Anteriormente atuou como Executivo nas áreas de Administração, Produtos, Novos Negócios, varejo, Growth e Parcerias comerciais de seguradoras e operadoras e empresas do setor financeiro.</p>`
       },
       maria: {
-        image_bg: "profile-maria-pop.png",
+        image_bg: "maria.png",
         title: "Maria Valins",
         subtitle: "",
         headline: "CFO",
@@ -157,7 +157,7 @@ const app = {
             Responsável pela área Administrativa e Financeira da XIPP. Ao longo de sua carreira, adquiriu experiência em processos de M&A, Due Dilligence e forte relacionamento com órgãos reguladores (ANS, SUSEP), atuando em grandes companhias de seguros como seguradoras e corretoras.</p>`
       },
       silvia: {
-        image_bg: "profile-silvia-pop.png",
+        image_bg: "silvia.png",
         title: "Silvia de Carvalho Jaldin",
         subtitle: "",
         headline: "Gerente de Saúde",
@@ -165,7 +165,7 @@ const app = {
             Médica pela Faculdade de Medicina de Santo Amaro/UNIS. Delegada Superintendente Adjunta do CREMESP – Regional Norte. Diretora de Ética, Defesa e Valorização Profissional da Sociedade Brasileira de Auditoria Médica. Consultora para Assuntos da Saúde Suplementar e Gestão do Benefício Saúde para Empresa. Professora Tutora da Liga Acadêmica de Inovação, Finanças e Empreendedorismo na Medicina da Faculdade Medicina Sto. Amaro. Professora Convidada da Pós-Graduação em Saúde Suplementar na Escola Nacional de Seguros.</p>`
       },
       stella: {
-        image_bg: "profile-stella-pop.png",
+        image_bg: "stella.png",
         title: "Stella Spera",
         subtitle: "",
         headline: "Diretora de Relacionamento e Operação",
@@ -173,7 +173,7 @@ const app = {
             Responsável pelo atendimento ao cliente, implantação e operação da XIPP. Ao longo de sua carreira foi Executiva em grandes operadoras de saúde e corretoras de seguros.</p>`
       },
       walter: {
-        image_bg: "profile-walter-pop.png",
+        image_bg: "walter.png",
         title: "Walter Cavichio",
         subtitle: "",
         headline: "Walter Cavichio",
