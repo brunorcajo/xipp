@@ -403,12 +403,29 @@ a:hover {
   justify-content: space-between;
 }
 .header nav ul li {
+  position: relative;
   list-style: none;
   margin: 0 15px;
+  color: white;
+  font-size: 14px;
+}
+.header nav ul li:hover ul {
+  display: flex;
 }
 .header nav ul li a {
   color: white;
   font-size: 14px;
+}
+.header nav ul li > ul {
+  display: none;
+  position: absolute;
+}
+.header nav ul li > ul > li {
+  margin: 0 0 0 5px;
+  padding: 0;
+}
+.header nav ul li > ul > li a {
+  white-space: nowrap;
 }
 .header .brand img {
   margin-right: 20px;
