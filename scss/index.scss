@@ -9,6 +9,11 @@
         position: absolute;
         bottom: 50px;
         left: 50px;
+
+        @media (max-width: 991px) {
+            top: 500px;
+        }
+        
     }
 }
 
@@ -30,6 +35,11 @@
         position: absolute;
         bottom: -50px;
         left: -50px;
+
+        @media (max-width: 991px) {
+           display: none;
+        }
+        
     }
 
     &__item {
@@ -43,6 +53,11 @@
         font-size: 50px;
         font-weight: 600;
         line-height: 1.2;
+
+        @media (max-width: 991px) {
+           font-size: 35px;
+        }
+        
     }
 
     & .slick-dots {
@@ -62,6 +77,10 @@
 
     flex: 0 1 33%;
     margin-bottom: 50px;
+
+    @media (max-width: 991px) {
+        flex: 0 1 50%;
+    }
 
     &__wrapper {
         display: flex;

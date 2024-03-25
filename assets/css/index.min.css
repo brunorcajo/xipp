@@ -213,7 +213,7 @@ a:hover {
 }
 @media (max-width: 1199px) {
   .hero__item > .container {
-    min-height: 80vh;
+    min-height: 60vh;
   }
 }
 .hero__title {
@@ -225,6 +225,11 @@ a:hover {
 @media (max-width: 1199px) {
   .hero__title {
     font-size: 48px;
+  }
+}
+@media (max-width: 991px) {
+  .hero__title {
+    font-size: 35px;
   }
 }
 .hero__description {
@@ -240,6 +245,11 @@ a:hover {
   position: absolute;
   bottom: 50px;
   left: 50px;
+}
+@media (max-width: 991px) {
+  .about__bg {
+    top: 500px;
+  }
 }
 
 .solutions {
@@ -261,6 +271,11 @@ a:hover {
   bottom: -50px;
   left: -50px;
 }
+@media (max-width: 991px) {
+  .products__bg {
+    display: none;
+  }
+}
 .products__item p:not(.products__title), .products__item ul li {
   font-size: 14px;
   line-height: 1.4;
@@ -269,6 +284,11 @@ a:hover {
   font-size: 50px;
   font-weight: 600;
   line-height: 1.2;
+}
+@media (max-width: 991px) {
+  .products__title {
+    font-size: 35px;
+  }
 }
 .products .slick-dots {
   margin-bottom: -50px;
@@ -281,6 +301,11 @@ a:hover {
 .profile {
   flex: 0 1 33%;
   margin-bottom: 50px;
+}
+@media (max-width: 991px) {
+  .profile {
+    flex: 0 1 50%;
+  }
 }
 .profile__wrapper {
   display: flex;

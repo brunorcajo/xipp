@@ -211,6 +211,12 @@ a:hover {
     font-size: 38px;
   }
 }
+@media (max-width: 991px) {
+  .h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+}
 
 .poppins-thin {
   font-family: "Poppins", sans-serif;
@@ -460,6 +466,11 @@ a:hover {
     font-size: 40px;
   }
 }
+@media (max-width: 991px) {
+  .box-content__title {
+    font-size: 30px;
+  }
+}
 
 .slick-dots {
   position: absolute;
@@ -576,6 +587,11 @@ a:hover {
 .profile > a__description {
   font-size: 14px;
 }
+@media (max-width: 991px) {
+  .profile__title {
+    font-size: 16px !important;
+  }
+}
 .profile__more {
   display: none;
   font-size: 12px;
@@ -597,10 +613,9 @@ a:hover {
     font-size: 24px;
   }
 }
-@media (max-width: 575px) {
+@media (max-width: 991px) {
   .profile__occupation {
-    font-size: 14px;
-    margin-bottom: 5px;
+    font-size: 12px !important;
   }
 }
 .profile__acronym {
@@ -639,9 +654,21 @@ body {
   width: 60px;
   display: inline-block;
 }
+@media (max-width: 991px) {
+  .textDetail {
+    height: 4px;
+    width: 30px;
+  }
+}
 .textDetail--xs {
   height: 3px;
   width: 30px;
+}
+@media (max-width: 991px) {
+  .textDetail--xs {
+    height: 2px;
+    width: 20px;
+  }
 }
 
 .vorttex {

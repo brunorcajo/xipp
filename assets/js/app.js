@@ -7,6 +7,15 @@ const app = {
       slidesToScroll: 1,
       arrows: true,
       dots: true,
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            arrows: false,
+            adaptiveHeight: true,
+          }
+        },
+      ]
     }
   },
 

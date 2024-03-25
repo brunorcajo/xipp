@@ -56,6 +56,13 @@
         }
     }
 
+    &__title{
+        @media (max-width: 991px) {
+           font-size: 16px !important;
+        }
+        
+    }
+
 
     &__more {
         display: none;
@@ -82,11 +89,9 @@
     }
 
     &__occupation {
-        @media (max-width: 575px) {
-            font-size: 14px;
-            margin-bottom: 5px;
+        @media (max-width: 991px) {
+            font-size: 12px !important;
         }
-
     }
 
     &__acronym {
