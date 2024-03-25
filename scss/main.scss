@@ -24,6 +24,11 @@ body {
   color: white;
   font-size: 18px;
   height: 100%;
+
+  @media (max-width: 1199px) {
+     font-size: 16px;
+  }
+  
 }
 
 .textDetail {
@@ -97,7 +102,7 @@ body {
     font-size: 30px;
     color: $COLOR-PRIMARY;
 
-    @media (max-width: 575px) {
+    @media (max-width: 1199px) {
       font-size: 28px;
     }
 
@@ -114,6 +119,11 @@ body {
     font-weight: 500;
     line-height: 30px;
     color: white;
+
+    @media (max-width: 1199px) {
+       font-size: 18px;
+    }
+    
 
     & a {
       font-size: 14px;

@@ -76,6 +76,16 @@
     --bs-body-color: white;
     --bs-body-color-rgb: white;
 
+    @media (max-width: 1199px) {
+        padding: 100px 0;
+    }
+
+    @media (max-width: 991px) {
+       padding: 0;
+    }
+    
+    
+
     input:not(input[type=checkbox]), textarea, select {
         border: none;
         border-bottom: solid 1px white;
@@ -90,7 +100,7 @@
     }
 
     .form-floating label {
-        font-size: 15px;
+        font-size: 14px;
         padding: 1rem 0;
     }
 
