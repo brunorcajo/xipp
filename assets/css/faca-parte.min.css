@@ -213,7 +213,7 @@ a:hover {
 }
 @media (max-width: 1199px) {
   .hero__item > .container {
-    min-height: 60vh;
+    min-height: 75vh;
   }
 }
 .hero__title {

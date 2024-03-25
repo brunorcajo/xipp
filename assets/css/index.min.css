@@ -213,7 +213,7 @@ a:hover {
 }
 @media (max-width: 1199px) {
   .hero__item > .container {
-    min-height: 60vh;
+    min-height: 75vh;
   }
 }
 .hero__title {
@@ -240,6 +240,7 @@ a:hover {
   position: relative;
   pointer-events: none;
   user-select: none;
+  overflow: hidden;
 }
 .about__bg {
   position: absolute;
@@ -248,7 +249,8 @@ a:hover {
 }
 @media (max-width: 991px) {
   .about__bg {
-    top: 500px;
+    top: 300px;
+    left: -20px;
   }
 }
 
