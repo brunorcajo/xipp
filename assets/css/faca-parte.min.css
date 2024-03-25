@@ -209,7 +209,7 @@ a:hover {
   background-position: center;
 }
 .hero__item > .container {
-  min-height: 90vh;
+  min-height: 100vh;
 }
 .hero__title {
   color: white;
