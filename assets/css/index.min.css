@@ -231,8 +231,12 @@ a:hover {
   color: white;
 }
 .hero.faca-parte .hero__item {
-  background-image: url(/assets/images/bg-faca-parte-mobile.png) !important;
-  background-position: center;
+  background-position: center top;
+}
+@media (max-width: 991px) {
+  .hero.faca-parte .hero__item {
+    background-image: url(/assets/images/bg-faca-parte-mobile.png) !important;
+  }
 }
 .hero.politica .hero__item {
   background: #24272C;

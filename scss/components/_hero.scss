@@ -40,8 +40,11 @@
 
     &.faca-parte {
         & .hero__item {
-            background-image: url(/assets/images/bg-faca-parte-mobile.png) !important;
-            background-position: center;
+            background-position: center top;
+
+            @media (max-width: 991px) {
+                background-image: url(/assets/images/bg-faca-parte-mobile.png) !important;
+            }
         }
     }
 
