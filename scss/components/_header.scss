@@ -55,4 +55,108 @@
        flex: 1;
         text-align: right;
     }
+
+    &.mobile {
+        position: absolute;
+
+        & .brand {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        & .menu {
+            position: absolute;
+            left: 20px;
+        }
+    }
+}
+
+.client.cta {
+   
+}
+
+.courtain {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    background-color: $COLOR-PRIMARY;
+    color: $COLOR-GRAY-800;
+    width: 100%;
+    flex-direction: column;
+    transform: translateX(-100%);
+    transition: all ease-in-out .2s;
+    
+    &.open{
+        transform: translateX(0);
+    }
+
+    header {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    & .brand {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    & .menu {
+        position: absolute;
+        left: 20px;
+    }
+
+    main {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        nav {
+            
+            a {
+                font-size: 25px;
+                color: $COLOR-GRAY-800;
+                line-height: 2;
+                font-weight: 600;
+            }
+
+            & ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                & li {
+                    text-align: center;
+
+                    &.inner {
+                        line-height: 1;
+
+                        & a {
+                            line-height: 1.5;
+                        }
+                    }
+
+                    & > ul {
+                        padding-left: 10px;
+                        & li {
+                            & a {
+                                font-size: 16px;
+                                line-height: 1.4 !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .btn-primary {
+            background-color: #303338;
+        }
+    }
 }

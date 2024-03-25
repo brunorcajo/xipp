@@ -1,32 +1,42 @@
 .box {
     padding: 100px 0;
 
-    @media (max-width: 991px) {
-       padding: 50px 0;
-    }
-    
-
     &-wrapper {
         display: grid;
     }
 
     &-content {
 
-        &__title{
+        &__title {
             font-size: 60px;
             line-height: 1.2;
             font-weight: 600;
 
             @media (max-width: 1199px) {
-               font-size: 40px;
+                font-size: 40px;
             }
 
             @media (max-width: 991px) {
-               font-size: 30px;
+                font-size: 30px;
             }
-            
-            
         }
-        
     }
+
+    &-mobile-xs { //box-mobile-xs
+        @media (max-width: 991px) {
+            padding: 50px 0;
+        }
+
+
+    }
+
+    &-mobile-t-xs { //box-mobile-t-xs
+        @media (max-width: 991px) {
+            padding-top: 50px;
+        }
+
+
+    }
+
+
 }

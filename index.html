@@ -20,6 +20,73 @@
 
 <body>
 
+    <header class="header mobile">
+        <img src="/assets/images/menu.png" alt="" class="menu" id="menu">
+        <a href="/" class="brand">
+            <img src="/assets/images/brand-mobile.png" alt="" class="m-auto">
+        </a>
+    </header>
+
+    <div class="courtain mobile" id="courtain">
+        <header>
+            <img src="/assets/images/close-black.png" alt="" class="menu" id="close">
+            <a href="/" class="brand">
+                <img src="/assets/images/brand-mobile-black.png" alt="" class="m-auto">
+            </a>
+        </header>
+        <div class="client cta mobile justify-content-center mt-5">
+            <div class="btn-group">
+                <button type="button" class="btn btn-tertiary dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Área do cliente
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://qrco.de/EuProtegidoXIPP" target="_blank">Eu Protegido</a>
+                    </li>
+                    <li><a class="dropdown-item" href="https://app.rhprotegido.com.br/install" target="_blank">RH
+                            Protegido</a></li>
+                    <li><a class="dropdown-item" href="https://app.drprotegido.com.br/install" target="_blank">Dr
+                            Protegido</a></li>
+                </ul>
+            </div>
+        </div>
+        <main>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#sobre-nos">Sobre nós</a>
+                    </li>
+                    <li>
+                        <a href="#solucoes">Soluções</a>
+                    </li>
+                    <li>
+                        <a href="/faca-parte.html">Faça parte</a>
+                    </li>
+                    <li class="inner">
+                        <a href="/politica-de-privacidade.html">Governança</a>
+                        <ul>
+                            <li>
+                                <a href="/politica-de-privacidade.html">Política de privacidade</a>
+                            </li>
+                            <li>
+                                <a href="/assets/docs/codigo-conduta.pdf" target="_blank">Código de ética e conduta</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </main>
+        <div class="media d-flex justify-content-center align-items-center pb-5">
+            <img src="/assets/images/instagram-black.png" alt="" class="me-3">
+            <img src="/assets/images/linkedin-black.png" alt="">
+        </div>
+    </div>
+
+
+
     <header class="header desk">
         <div class="container d-flex w-100">
             <div class="brand">
@@ -37,8 +104,7 @@
                         </a>
                     </li>
                     <li>
-                        
-                            Governança
+                        Governança
                         <ul class="flex-column m-0 p-0">
                             <li class="py-1 pt-2">
                                 <a href="/politica-de-privacidade.html">Política de privacidade</a>
@@ -53,15 +119,19 @@
             </nav>
             <div class="cta">
                 <div class="btn-group">
-                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                      Área do cliente
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Área do cliente
                     </button>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="https://qrco.de/EuProtegidoXIPP" target="_blank">Eu Protegido</a></li>
-                      <li><a class="dropdown-item" href="https://app.rhprotegido.com.br/install" target="_blank">RH Protegido</a></li>
-                      <li><a class="dropdown-item" href="https://app.drprotegido.com.br/install" target="_blank">Dr Protegido</a></li>
+                        <li><a class="dropdown-item" href="https://qrco.de/EuProtegidoXIPP" target="_blank">Eu
+                                Protegido</a></li>
+                        <li><a class="dropdown-item" href="https://app.rhprotegido.com.br/install" target="_blank">RH
+                                Protegido</a></li>
+                        <li><a class="dropdown-item" href="https://app.drprotegido.com.br/install" target="_blank">Dr
+                                Protegido</a></li>
                     </ul>
-                  </div>
+                </div>
             </div>
         </div>
     </header>
@@ -91,7 +161,7 @@
         </div>
     </section>
 
-    <section class="about bg-color-gray-700 box box-content" id="sobre-nos">
+    <section class="about bg-color-gray-700 box box-content box-mobile-xs" id="sobre-nos">
         <div class="about__bg">
             <img src="/assets/images/arrow-bg.png" class="img-fluid" alt="">
         </div>
@@ -145,7 +215,7 @@
         </div>
     </section>
 
-    <section class="pillars bg-color-gray-700 box box-content">
+    <section class="pillars bg-color-gray-700 box box-content box-mobile-xs">
         <div class="container">
             <h2 class="h2 mb-5">
                 Pilares
@@ -166,7 +236,7 @@
         </div>
     </section>
 
-    <section class="solutions bg-color-gray-800 box box-content" id="solucoes">
+    <section class="solutions bg-color-gray-800 box box-content box-mobile-t-xs" id="solucoes">
         <div class="solutions__arrow">
             <img src="/assets/images/products-arrow.png" alt="">
         </div>
@@ -233,11 +303,13 @@
                             <img src="/assets/images/prod-2.png" class="img-fluid" alt="">
                         </div>
                         <div class="col-12 col-lg-5 vertical-column-center pe-lg-5">
-                            <p class="d-flex text-color-primary align-items-center justify-content-center justify-content-lg-start fs-5 mb-0">
+                            <p
+                                class="d-flex text-color-primary align-items-center justify-content-center justify-content-lg-start fs-5 mb-0">
                                 <img src="/assets/images/ico/ico-rh-protegido-xs.png" alt="" class="me-2">
                                 CONEXÃO MÉDICA
                             </p>
-                            <p class="products__title mb-3 mb-lg-5 text-center text-lg-start">RH <span class="text-color-primary">Protegido</span></p>
+                            <p class="products__title mb-3 mb-lg-5 text-center text-lg-start">RH <span
+                                    class="text-color-primary">Protegido</span></p>
                             <p class="fs-6">
                                 01_ Gestão operacional <br>
                                 02_ Gestão de riscos <br>
@@ -264,11 +336,13 @@
                             <img src="/assets/images/prod-2.png" class="img-fluid" alt="">
                         </div>
                         <div class="col-12 col-lg-5 vertical-column-center pe-lg-5">
-                            <p class="d-flex text-color-primary align-items-center justify-content-center justify-content-lg-start fs-5 mb-0">
+                            <p
+                                class="d-flex text-color-primary align-items-center justify-content-center justify-content-lg-start fs-5 mb-0">
                                 <img src="/assets/images/ico/ico-dr-protegido-xs.png" alt="" class="me-2">
                                 CONEXÃO MÉDICA
                             </p>
-                            <p class="products__title  mb-3 mb-lg-5 text-center text-lg-start">Dr. <span class="text-color-primary">Protegido</span></p>
+                            <p class="products__title  mb-3 mb-lg-5 text-center text-lg-start">Dr. <span
+                                    class="text-color-primary">Protegido</span></p>
                             <p class="fs-6">
                                 01_ Acompanhamento em saúde <br>
                                 02_ Mapa de internação <br>
@@ -292,11 +366,13 @@
                             <img src="/assets/images/prod-3.png" class="img-fluid" alt="">
                         </div>
                         <div class="col-12 col-lg-5 vertical-column-center pe-5">
-                            <p class="d-flex text-color-primary align-items-center justify-content-center justify-content-lg-start fs-5 mb-0">
+                            <p
+                                class="d-flex text-color-primary align-items-center justify-content-center justify-content-lg-start fs-5 mb-0">
                                 <img src="/assets/images/ico/ico-eu-protegido-xs.png" alt="" class="me-2">
                                 CONEXÃO MÉDICA
                             </p>
-                            <p class="products__title  mb-3 mb-lg-5 text-center text-lg-start">Eu <span class="text-color-primary">Protegido</span>
+                            <p class="products__title  mb-3 mb-lg-5 text-center text-lg-start">Eu <span
+                                    class="text-color-primary">Protegido</span>
                             </p>
                             <p class="fs-6">
                                 01_ Benefícios em um único lugar <br>
@@ -568,7 +644,8 @@
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" id="gridCheck1" required>
                                         <label class="form-check-label fs-6" for="gridCheck1">
-                                            <span class="text-white fs-7">Aceito a <a href="/politica-de-privacidade.html" target="_blank">Política de
+                                            <span class="text-white fs-7">Aceito a <a
+                                                    href="/politica-de-privacidade.html" target="_blank">Política de
                                                     Privacidade</a>.</span>
                                         </label>
                                     </div>

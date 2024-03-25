@@ -12,7 +12,10 @@
     font-size: 14px;
   }
 
-  &:first-child:active, &:first-child:hover {
+
+
+  &:first-child:active,
+  &:first-child:hover {
     color: #{$COLOR-PRIMARY-CONTRAST};
   }
 
@@ -22,7 +25,7 @@
     --bs-btn-color: #{$COLOR-PRIMARY-CONTRAST};
     --bs-btn-hover-color: #{$COLOR-PRIMARY-CONTRAST};
     --bs-btn-hover-bg: #08e97c;
-    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: #{$COLOR-PRIMARY};
     --bs-btn-active-border-color: #{$COLOR-PRIMARY};
@@ -32,6 +35,11 @@
     --bs-btn-disabled-bg: #{$COLOR-PRIMARY};
     --bs-btn-disabled-border-color: #{$COLOR-PRIMARY};
     color: #{$COLOR-PRIMARY-CONTRAST};
+
+    &.show,
+    &:first-child:hover {
+      color: #{$COLOR-PRIMARY-CONTRAST};
+    }
   }
 
   &-secondary {
@@ -42,7 +50,7 @@
     --bs-btn-hover-color: #{$COLOR-PRIMARY-CONTRAST};
     --bs-btn-hover-bg: #52babc;
     --bs-btn-hover-border-color: #{$COLOR-SECONDARY};
-    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
     --bs-btn-active-color: #{$COLOR-SECONDARY};
     --bs-btn-active-bg: #{$COLOR-SECONDARY};
     --bs-btn-active-border-color: #{$COLOR-SECONDARY};
@@ -50,6 +58,29 @@
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: #{$COLOR-SECONDARY};
     --bs-btn-disabled-border-color: #{$COLOR-SECONDARY};
+  }
+
+  &-tertiary {
+    --bs-btn-bg: #{$COLOR-GRAY-700};
+    --bs-btn-color: white;
+    --bs-btn-bg: #{$COLOR-GRAY-700};
+    --bs-btn-border-color: #{$COLOR-GRAY-700};
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #{$COLOR-GRAY-700};
+    --bs-btn-hover-border-color: #{$COLOR-GRAY-700};
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #{$COLOR-GRAY-700};
+    --bs-btn-active-bg: #{$COLOR-GRAY-700};
+    --bs-btn-active-border-color: #{$COLOR-GRAY-700};
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #{$COLOR-GRAY-700};
+    --bs-btn-disabled-border-color: #{$COLOR-GRAY-700};
+
+    &.show,
+    &:first-child:hover {
+      color: white
+    }
   }
 
   &-icon {
@@ -60,11 +91,11 @@
     display: flex;
     align-items: center;
     width: fit-content;
-    
+
     & img {
       margin-right: 8px;
     }
-    
+
     &:link:hover {
       font-weight: 700;
       text-decoration: none;

@@ -22,6 +22,14 @@ const app = {
   init: function () {
     app.configureSlick();
     app.team.init();
+    
+    $('#menu, #close, .courtain nav a').on('click', function(event){
+      app.menu(event);
+    });
+  },
+
+  menu: function(event) {
+    $('#courtain').toggleClass("open");
   },
 
   home: function () {

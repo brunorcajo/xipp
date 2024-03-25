@@ -211,11 +211,6 @@ a:hover {
 .hero__item > .container {
   min-height: 90vh;
 }
-@media (max-width: 1199px) {
-  .hero__item > .container {
-    min-height: 75vh;
-  }
-}
 .hero__title {
   color: white;
   font-size: 60px;
