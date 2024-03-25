@@ -20,7 +20,72 @@
 
 <body>
 
-    <header class="header">
+    <header class="header mobile">
+        <img src="/assets/images/menu.png" alt="" class="menu" id="menu">
+        <a href="/" class="brand">
+            <img src="/assets/images/brand-mobile.png" alt="" class="m-auto">
+        </a>
+    </header>
+
+    <div class="courtain mobile" id="courtain">
+        <header>
+            <img src="/assets/images/close-black.png" alt="" class="menu" id="close">
+            <a href="/" class="brand">
+                <img src="/assets/images/brand-mobile-black.png" alt="" class="m-auto">
+            </a>
+        </header>
+        <div class="client cta mobile justify-content-center mt-5">
+            <div class="btn-group">
+                <button type="button" class="btn btn-tertiary dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Área do cliente
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://qrco.de/EuProtegidoXIPP" target="_blank">Eu Protegido</a>
+                    </li>
+                    <li><a class="dropdown-item" href="https://app.rhprotegido.com.br/install" target="_blank">RH
+                            Protegido</a></li>
+                    <li><a class="dropdown-item" href="https://app.drprotegido.com.br/install" target="_blank">Dr
+                            Protegido</a></li>
+                </ul>
+            </div>
+        </div>
+        <main>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#sobre-nos">Sobre nós</a>
+                    </li>
+                    <li>
+                        <a href="#solucoes">Soluções</a>
+                    </li>
+                    <li>
+                        <a href="/faca-parte.html">Faça parte</a>
+                    </li>
+                    <li class="inner">
+                        <a href="/politica-de-privacidade.html">Governança</a>
+                        <ul>
+                            <li>
+                                <a href="/politica-de-privacidade.html">Política de privacidade</a>
+                            </li>
+                            <li>
+                                <a href="/assets/docs/codigo-conduta.pdf" target="_blank">Código de ética e conduta</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </main>
+        <div class="media d-flex justify-content-center align-items-center pb-5">
+            <img src="/assets/images/instagram-black.png" alt="" class="me-3">
+            <img src="/assets/images/linkedin-black.png" alt="">
+        </div>
+    </div>
+
+    <header class="header desk">
         <div class="container d-flex w-100">
             <div class="brand">
                 <a href="/">
@@ -37,7 +102,6 @@
                         </a>
                     </li>
                     <li>
-
                         Governança
                         <ul class="flex-column m-0 p-0">
                             <li class="py-1 pt-2">
@@ -70,9 +134,9 @@
         </div>
     </header>
 
-    <section class="hero">
+    <section class="hero politica">
         <div class="hero__items">
-            <div class="hero__item" style="background-image: url(/assets/images/bg-faca-parte.png);">
+            <div class="hero__item">
                 <div class="container d-flex align-items-center">
                     <p class="hero__title">
                         <a href="/" class="d-block back d-flex align-items-center mb-4">
@@ -289,9 +353,9 @@
         <div class="container">
 
             <div class="row">
-                <div class="col d-flex align-items-center">
+                <div class="col-12 col-lg-6 d-flex align-items-center flex-column flex-lg-row">
                     <img src="/assets/images/xipp-brand-footer.png" alt="XIPP" class="">
-                    <span class="fs-7 mx-5">© Copyright 2024</span>
+                    <span class="fs-7 mx-5 my-4 my-lg-0">© Copyright 2024</span>
                     <div class="media">
                         <a href="https://www.instagram.com/xippseguros/" target="_blank" class="me-3"><img
                                 src="/assets/images/ico/ico-ins.svg" alt="Instagram"></a>
@@ -301,7 +365,7 @@
                                 src="/assets/images/ico/ico-whats.svg" alt="Whatsapp"></a>
                     </div>
                 </div>
-                <div class="col text-end">
+                <div class="col-12 col-lg-6 text-center text-lg-end mt-5 mt-lg-0">
                     <a href="/politica-de-privacidade.html" class="text-white fs-7">Política de Privacidade</a>
                 </div>
             </div>

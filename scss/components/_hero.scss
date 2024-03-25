@@ -37,4 +37,21 @@
     &__description {
         color: white;
     }
+
+    &.faca-parte {
+        & .hero__item {
+            background-image: url(/assets/images/bg-faca-parte-mobile.png) !important;
+            background-position: center;
+        }
+    }
+
+    &.politica {
+        & .hero__item {
+            background: #24272C;
+            @media (max-width: 991px) {
+                background-image: url(/assets/images/bg-politica-mobile.png) !important;
+                background-position: center;
+            }
+        }
+    }
 }
