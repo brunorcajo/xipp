@@ -34,6 +34,10 @@ const app = {
 
   home: function () {
 
+    if ($.fn.mask) {
+      $('.phone').mask('(00) 0000-00009', { clearIfNotMatch: true });
+  }
+
     $(".profile a").on('click', function (e) {
       e.preventDefault();
     })
