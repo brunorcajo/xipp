@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail = new PHPMailer(true);
 
     try {
-        // Configurações do servidor
+        //Configurações do servidor
         //$mail->isSMTP();
         //$mail->Host = 'smtp.example.com';
         //$mail->SMTPAuth = true;
